@@ -1,0 +1,46 @@
+*
+{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+}
+
+
+.navbar .nav-item .nav-link
+{
+    font-size: 20px;
+    color:white;
+        
+}
+.navbar-custom .nav-item:hover .nav-link
+{
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+.div-color
+{
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, 
+      #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+ .btn-grad {background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%)}
+         .btn-grad {
+            margin: 10px;
+            padding: 10px 15px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+          
+          }
+
+          .btn-grad:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
